@@ -2,7 +2,7 @@
 #include "Game.h"
 
 /******************************************
- * Função main do jogo, cria um objeto do 
+ * FunÃ§Ã£o main do jogo, cria um objeto do 
  * tipo Game e chama o loop principal.
 *******************************************/
 int main()
