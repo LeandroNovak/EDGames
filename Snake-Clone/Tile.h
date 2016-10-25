@@ -1,6 +1,5 @@
 #include <SFML/Graphics.hpp>
 #include <string>
-#include <iostream>
 
 #ifndef TILE_H
 #define TILE_H
@@ -10,15 +9,15 @@ class Tile
 public:
 	Tile();
 
-	void load(std::string filename, int x, int y);			// Carrega imagem em arquivo e atribui posiÁ„o da imagem
-	void load(std::string filename, int x, int y, int id);	// Carrega imagem em arquivo e atribui posiÁ„o da imagem
+	void load(std::string filename, int x, int y);			// Carrega imagem em arquivo e atribui posi√ß√£o da imagem
+	void load(std::string filename, int x, int y, int id);	// Carrega imagem em arquivo e atribui posi√ß√£o da imagem
 	void commonLoad(std::string, int x, int y);
 	void draw(sf::RenderTarget &, sf::RenderStates);		// Desenha imagem na janela
 	void draw(sf::RenderTarget &);
-	void changeLocation(std::string);						// Altera a pasta padr„o de sprites
-	void setPosition(float, float);							// Atribui ao sprite uma posiÁ„o definida pelo usu·rio
+	void changeLocation(std::string);						// Altera a pasta padr√£o de sprites
+	void setPosition(float, float);							// Atribui ao sprite uma posi√ß√£o definida pelo usu√°rio
 	void setPosition(sf::Vector2f);
-	sf::Vector2f getPosition();								// Retorna a posiÁ„o do _sprite
+	sf::Vector2f getPosition();								// Retorna a posi√ß√£o do _sprite
 	sf::Vector2f getSize();
 	int getId();
 	void operator=(Tile);
