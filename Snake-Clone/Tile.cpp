@@ -8,7 +8,7 @@ Tile::Tile()
 	_id = -1;
 }
 
-// Carrega a imagem .png a partir do seu nome e insere na posição x,y
+// Carrega a imagem .png a partir do seu nome e insere na posiÃ§Ã£o x,y
 void Tile::load(std::string filename, int x, int y)
 {
 	_texture.loadFromFile(defaultLocation + filename + defaultSufix);
@@ -18,7 +18,7 @@ void Tile::load(std::string filename, int x, int y)
 	_id = -1;
 }
 
-// Carrega a imagem .png a partir do seu nome, insere na posição x,y e atribui uma id a imagem
+// Carrega a imagem .png a partir do seu nome, insere na posiÃ§Ã£o x,y e atribui uma id a imagem
 void Tile::load(std::string filename, int x, int y, int id)
 {
 	_texture.loadFromFile(defaultLocation + filename + defaultSufix);
@@ -26,7 +26,6 @@ void Tile::load(std::string filename, int x, int y, int id)
 	_sprite.setPosition(x, y);
 	_id = id;
 	_filename = filename;
-
 }
 
 void Tile::commonLoad(std::string filename, int x, int y)
