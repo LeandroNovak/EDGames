@@ -93,5 +93,3 @@ void GameButton::draw(sf::RenderTarget & target)
 	target.draw(buttonSprite);
 	target.draw(buttonText);
 }
-
-
