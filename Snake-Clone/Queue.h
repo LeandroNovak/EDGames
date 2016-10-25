@@ -6,8 +6,7 @@ enum Direction {up, down, left, right};
 class Queue
 {
 private:
-	struct Node
-	{
+	struct Node {
 		Tile img;
 		Node* next;
 	};
@@ -36,4 +35,3 @@ public:
 	sf::Vector2f getHeadPosition();
 
 };
-
