@@ -8,7 +8,6 @@
 
 enum State {menu, playing, win, lose};
 
-
 // Classe Game
 class Game
 {
@@ -18,8 +17,8 @@ public:
 
 	void run();									// Loop principal do jogo
 	void eventHandler();						// Gerenciador de eventos
-	void update(float);							// Atualiza conteúdo do jogo
-	void draw();								// Exibe conteúdo na janela
+	void update(float);							// Atualiza conteÃºdo do jogo
+	void draw();								// Exibe conteÃºdo na janela
 
 private:
 	sf::RenderWindow mainWindow;				// Janela
