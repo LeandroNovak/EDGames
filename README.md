@@ -1,4 +1,4 @@
 # ED Games
 
-- Queue Game
-- Stack Game
+- [Queue Game](Queue)
+- [Stack Game](Stack)
